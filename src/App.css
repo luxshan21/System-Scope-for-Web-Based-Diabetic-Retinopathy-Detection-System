@@ -1,0 +1,170 @@
+/* App.css */
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  background-image: url('C:\Users\luxsh\Desktop\Diabetic Project\diabetic-retinopathy-detection\src\backround.jpg');
+  background-size: cover;
+  background-position: 50% 190px;
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 15px;
+  color: rgb(62, 196, 237);
+  border-radius: 100px;
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+h2 {
+  margin: 0.5em 0;
+}
+
+button {
+  background-color: #aad306;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+  margin: 10px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+input[type="file"] {
+  display: block;
+  margin: 20px auto;
+  padding: 10px;
+  border: 3px solid #86b214; /* Add a thick border */
+  border-radius: 8px; /* Add rounded corners */
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.user-info img {
+  margin-top: 10px;
+}
+
+.upload-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.result-section {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.result-section .image-container {
+  margin: 0 20px;
+}
+
+.result-section img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.placeholder-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-login-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.gsi-material-button {
+  background-color: #ffffff;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px;
+  color: #3c4043;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  justify-content: center;
+  min-width: 240px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gsi-material-button:hover {
+  background-color: #f7f8f9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.gsi-material-button-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.gsi-material-button-contents {
+  color: #3c4043;
+}
