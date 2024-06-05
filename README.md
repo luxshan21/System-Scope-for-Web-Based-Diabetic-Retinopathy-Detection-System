@@ -57,7 +57,8 @@ The objective of System Scope is to develop a user-friendly web-based platform t
 ## Screenshots
 
 ### Frontend View (Google Sign-In)
-![image](https://github.com/luxshan21/System-Scope-for-Web-Based-Diabetic-Retinopathy-Detection-System/assets/81348451/91bba00b-b3ed-42ad-9e15-facd410ec7ac)
+![image](https://github.com/luxshan21/System-Scope-for-Web-Based-Diabetic-Retinopathy-Detection-System/assets/81348451/8a7333ac-95f2-499c-8e53-2ade56da016e)
+
 
 
 ### Image Upload
